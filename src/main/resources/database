@@ -1,0 +1,19 @@
+Для імпорту даних:
+1. створити базу даних з ім*ям - netcracker
+2. виконати імпорт dump файла ( resources/netcrackerDump.sql ) в базу даних - netcracker
+3. підлючити базу даних до проекту... вказавши свої дані в MvcConfiguration класі.
+
+Для входу:
+
+LOGIN:PASSWORD
+
+ADMIN:
+president:president
+
+CUSTOMER:
+manager:manager
+
+USER:
+clark:clark  або будь-який інший юзер в системі login(name в лістингу) аналогічні паролю.
+
+
